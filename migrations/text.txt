@@ -1,0 +1,14 @@
+53:05
+ dang sai doan post len sv
+
+
+npx sequelize-cli db:migrate
+
+npx sequelize-cli db:seed:all
+
+
+note:
+neu ma o phia server side, de lay dc thong tin cua input nhap vao phia fe thi chung ta can dat 1
+thuoc tinh name, chu no k dua vao id
+
+service co nhiem vu nhan data tu controller va thao tac ve phia db
