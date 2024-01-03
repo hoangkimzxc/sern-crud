@@ -1,5 +1,3 @@
-53:05
- dang sai doan post len sv
 
 
 npx sequelize-cli db:migrate
