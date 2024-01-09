@@ -9,3 +9,12 @@ neu ma o phia server side, de lay dc thong tin cua input nhap vao phia fe thi ch
 thuoc tinh name, chu no k dua vao id
 
 service co nhiem vu nhan data tu controller va thao tac ve phia db
+
+
+khi login:
+check email ng dung nhap vao co ton tai trong db hay k
+so sanh password cua ng dung vs pw trong db co hop le
+sau do tra lai thong tin cua user(role, token..)
+
+co 2 cach so sanh password:
+c1: nhan password tu user 
