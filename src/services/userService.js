@@ -31,7 +31,6 @@ let handleUserLogin = (email, password) => {
                 } else {
                     userData.errCode = 2;
                     userData.errMessage = `User's not found`
-                    resolve(userData)
                 }
             } else {
                 //return error

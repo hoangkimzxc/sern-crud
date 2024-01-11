@@ -1,3 +1,5 @@
+28:17
+
 
 npx sequelize-cli db:migrate
 
@@ -16,5 +18,10 @@ check email ng dung nhap vao co ton tai trong db hay k
 so sanh password cua ng dung vs pw trong db co hop le
 sau do tra lai thong tin cua user(role, token..)
 
-co 2 cach so sanh password:
-c1: nhan password tu user 
+cai` cors:
+app.use(cors({
+    origin: 'http://localhost:3000',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+    optionsSuccessStatus: 204,
+}))
